@@ -1,11 +1,10 @@
 {
   "expo": {
-    "name": "visual",
-    "slug": "visual",
+    "name": "Market",
+    "slug": "market",
     "platforms": [
       "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -13,7 +12,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#4682B4"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,7 +21,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.raise.market"
+    },
+    "android": {
+      "package": "com.raise.market"
     }
   }
 }
